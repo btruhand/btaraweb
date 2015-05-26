@@ -2,11 +2,14 @@
   "name": "btaraweb",
   "version": "1.0.0",
   "description": "Personal website for Btara",
-  "main": "index.js",
+  "private": "true",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Btara Truhandarien",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
 }
