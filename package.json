@@ -10,6 +10,7 @@
   "author": "Btara Truhandarien",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.12.4"
+    "express": "^4.12.4",
+    "jade": "^1.10.0"
   }
 }
