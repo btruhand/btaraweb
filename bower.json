@@ -1,0 +1,23 @@
+{
+  "name": "BtaraWeb",
+  "version": "0.1",
+  "homepage": "https://github.com/btruhand/btaraweb",
+  "authors": [
+    "Btara Truhandarien <btara.truhandarien@gmail.com>"
+  ],
+  "description": "Btara Truhandarien's personal website",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

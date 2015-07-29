@@ -28,3 +28,9 @@ node_modules
 
 # Vim swp file
 *.swp
+
+# log files
+*.log
+
+# bower components
+bower_components

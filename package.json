@@ -4,7 +4,7 @@
   "description": "Personal website for Btara",
   "private": "true",
   "scripts": {
-    "start": "node app.js",
+    "start": "forever -w app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Btara Truhandarien",

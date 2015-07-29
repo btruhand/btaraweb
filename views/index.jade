@@ -1,31 +1,27 @@
-doctype html
+extends ./base.jade
 
-html(lang="en")
-  head
-    title BtaraWeb
-    meta(charset="UTF-8")
-    meta(name="author", content="Btara Truhandarien")
-    meta(name="description", content="Btara Truhandarien personal website")
-    meta(name="keywords", content="Btara, Truhandarien, Btara Truhandarien, website, personal website, personal info")
+block stylesheets
+  link(rel="stylesheet", type="text/css", href="/public/styles/index.css")
 
-    link(rel="stylesheet", href="/public/styles/general.css")
-  body
-    div#header
-      div.centered#page-headline
-        h1 #{headline}
-      div#navigation-bar
-        nav
-          li
-            a Home
-          li
-            a Projects
-          li
-            a About Me
-    div#page-container
-      div.centered#page-content
-        article
-          p.message.
-            I am Btara Truhandarien and welcome to my site. Currently the site is under progress.
-            Latest updates to the site (up to 1 month old) will be posted here. Future plans for
-            the site will also be updated here.
-
+block page_content
+  article.centered#content
+    h1 #{headline}
+    div
+      h3.subtitle About This Site
+      p.message.
+        This is a personal website created by Btara Truhandarien for the purpose of show-casing his
+        past, current and future works, to act as a medium of information about him and lastly as a
+        way to practice and improve his web programming skills. The site is mainly built on top of
+        JavaScript, HTML and CSS. Pointers or critics greatly appreciated.
+    div.subsequent
+      h3.subtitle#subsequent About Me
+      p.message.
+        Hi nice to meet you, I'm Btara Truhandarien a computer science undergraduate with a minor
+        in philosophy studying in University of Waterloo, currently in my 4A term taking a break.
+        Though I have some experience in web development they're only a few and thus it became my
+        motivation to improve my web programming skills in the form of this website. Above you'll
+        find quotes or sayings that I take inspiration from and in a way tell a bit about myself.
+        Of course credit goes for any of the quotes that I didn't think up of myself.
+      p.message.
+        I love to read manga (Japanese comics) and light novels, I love to think and daydream,
+        I love talking and I love learning. I hope you enjoy looking through my site.

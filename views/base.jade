@@ -1,0 +1,46 @@
+doctype html
+
+html(lang="en")
+  head
+    title BtaraWeb
+    meta(charset="UTF-8")
+    meta(name="author", content="Btara Truhandarien")
+    meta(name="description", content="Btara Truhandarien personal website")
+    meta(name="keywords", content="Btara, Truhandarien, Btara Truhandarien, website, personal website, personal info")
+
+    link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?family=Poiret+One|Ubuntu|Shadows+Into+Light")
+    link(rel="stylesheet", type="text/css", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+    link(rel="stylesheet", type="text/css", href="/public/styles/reset.css")
+    link(rel="stylesheet", type="text/css", href="/public/styles/base.css")
+    block stylesheets
+    script(src="/bower/jquery/dist/jquery.min.js")
+    script(src="/public/js/general.js")
+  body
+    div.container.flex#header
+      div#logo-quote-container
+        div#logo
+          img#image-logo(src="http://www.gravatar.com/avatar/ef12680e5b477ffe7baaafc934d0a68b?s=45")
+          span#big-text-logo
+            b BTW
+        div#quotes
+          p
+            q#the-quote
+            span#quoted-from
+      div#navigation-bar
+        nav
+          ul
+            li
+              a Home
+            li
+              a Archive
+            li
+              a Timeline
+            li
+              a Re&#769sume&#769
+    div.container#content-background
+      div.container#content-container
+        block page_content
+    div.container#footer-container
+      div#footer
+        span.fa.fa-facebook-square
+        h3#copyright &copy; Btara Truhandarien #{year}. All rights reserved.

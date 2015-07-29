@@ -1,0 +1,14 @@
+# log files
+*.log
+
+# bower component files
+*.swp
+
+# node modules
+node_modules
+
+# JSON files
+*.json
+
+# README files
+*.md
