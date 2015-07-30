@@ -14,7 +14,6 @@
   "scripts": {
     "start": "forever -w app.js",
     "postinstall": "./node_modules/bower/bin/bower install",
-    "compress-css": "java -jar $YUICOMPRESSOR -o '.css$:.min.css' public/styles/*.css",
-    "compress-js": "java -jar $YUICOMPRESSOR -o '.js$:.min.js' public/js/*.js"
+    "compress": "./compress.bash"
   }
 }
