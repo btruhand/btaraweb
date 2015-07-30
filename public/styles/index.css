@@ -9,7 +9,7 @@ h1 {
     border-color: rgb(212,207,188);
     color: rgb(16,16,48);
     letter-spacing: 2px;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.25em;
 }
 
 #content {
@@ -18,8 +18,8 @@ h1 {
     padding: 0.5em 0;
 }
 
-.subsequent {
-    margin-top: -20px;
+#after-headline {
+    padding-top: 1.5em;
 }
 
 .subtitle {
