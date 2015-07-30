@@ -12,3 +12,6 @@ node_modules
 
 # README files
 *.md
+
+# non minified js and css files
+!public/(js|styles)/!(*.min.css)

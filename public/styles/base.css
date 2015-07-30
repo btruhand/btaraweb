@@ -12,6 +12,10 @@
 }
 
 .flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -42,7 +46,7 @@
 }
 
 #logo {
-    font-size: 1em;
+    font-size: 0.8em;
     padding-left: 1em;
 }
 
@@ -56,7 +60,6 @@
     position: relative;
     vertical-align: middle;
     padding-left: 0.3em;
-    font-family: "Shadows Into Light", cursive, sans-serif;
     color: rgb(62,179,144);
 }
 
@@ -78,7 +81,7 @@
     content: "Btara Truhandarien's Website";
     position: absolute;
     top: 2.5em;
-    left: 1em;
+    left: 0.5em;
     font-size: 0.5em;
     color: rgb(21, 176, 104);
 }
@@ -93,12 +96,19 @@
     vertical-align: top;
 }
 
+.centurygothic {
+    font-family: "Century Gothic", "CenturyGothic", AppleGothic, sans-serif;
+}
+
+.baskerville {
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Times New Roman", serif;
+}
+
 #quotes {
     font-size: 0.75em;
     position: relative;
     width: 50%;
     margin-right: 25%;
-    font-family: 'Poiret One', Georgia, Serif;
     font-weight: bold;
     color: rgb(166, 137, 80);
     text-align: center;
@@ -113,7 +123,6 @@
     bottom: 0.5em;
     left: 25%;
     text-align: center;
-    font-family: "Shadows Into Light", cursive, sans-serif;
     color: rgb(102, 105, 103);
 }
 
@@ -184,7 +193,6 @@ q:after {
 #copyright {
     text-align: center;
     font-size: 0.8em;
-    font-family: "Poiret One", Courier, monospace;
     opacity: 0.8;
 }
 
