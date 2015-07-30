@@ -12,9 +12,7 @@
 }
 
 .flex {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
+    display: -moz-flex;
     display: -webkit-flex;
     display: flex;
 }
@@ -23,6 +21,8 @@
     font-size: 1rem;
     background-color: rgb(206,242,240);
     height: 11em;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column
     flex-direction: column;
     position: relative;
 }
