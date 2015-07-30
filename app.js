@@ -13,6 +13,6 @@ app.get('/', function(req,res) {
     res.render('index', {"headline" : "Welcome", "year" : new Date().getFullYear()});
 });
 
-app.listen(app.get('port'), '127.0.0.1', function() {
+app.listen(app.get('port'), function() {
     console.log('Website listening on port: ' + app.get('port'));
 });
