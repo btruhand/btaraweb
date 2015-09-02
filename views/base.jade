@@ -29,7 +29,7 @@ html(lang="en")
         nav
           ul
             li
-              a Home
+              a(href='/') Home
             li
               a Archive
             li
@@ -38,7 +38,8 @@ html(lang="en")
               a Re&#769sume&#769
     div.container#content-background
       div.container#content-container
-        block page_content
+        article.centered#content
+          block page_content
     div.container#footer-container
       div.flex#socmed-links
         a.fa.fa-facebook-square.sidespread(href='https://www.facebook.com/btara.truhandarien', target='_blank')

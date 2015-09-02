@@ -14,4 +14,4 @@ node_modules
 *.md
 
 # non minified js and css files
-!public/(js|styles)/!(*.min.css)
+public/(js|styles)/!(*.min.css)

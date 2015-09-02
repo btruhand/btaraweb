@@ -33,6 +33,12 @@
     margin-right: auto;
 }
 
+#content {
+    width: 65%;
+    font-size: 0.9rem;
+    padding: 0.5em 0;
+}
+
 #logo-quote-container {
     position: relative;
     justify-content: space-between;
@@ -139,6 +145,8 @@ li > a {
     width: 100%;
     vertical-align: text-bottom;
     padding: 0 10px;
+    text-decoration: none;
+    color: inherit;
 }
 
 nav li:hover a {
