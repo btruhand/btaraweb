@@ -20,7 +20,7 @@
 #header {
     font-size: 1rem;
     background-color: rgb(206,242,240);
-    height: 11em;
+    height: 12em;
     -webkit-flex-direction: column;
     -ms-flex-direction: column
     flex-direction: column;
@@ -123,36 +123,65 @@
 
 #navigation-bar {
     letter-spacing: 2px;
-    width: 50%;
+    width: 60%;
     position: absolute;
+    bottom: 0;
     font-size: 1.5rem;
-    bottom: 0.5em;
-    left: 25%;
-    text-align: center;
+    left: 20%;
     color: rgb(102, 105, 103);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
 }
 
 nav li {
     font-size: 1em;
-    height: 1.5em;
-    width: 5em;
+    height: 50px;
+    line-height: 50px;
+    width: 140px;
     display: inline-block;
-    margin: 0 0.25em;
 }
 
-li > a {
-    height: 100%;
-    width: 100%;
-    vertical-align: text-bottom;
-    padding: 0 10px;
+nav a {
     text-decoration: none;
+    display: block;
+    transition: .3s background-color;
     color: inherit;
 }
 
-nav li:hover a {
-    font-weight: bold;
-    color: rgb(21,115,94);
-    border-bottom: 3px solid rgb(21,115,94);
+nav li:hover {
+    font-weight: bold
+}
+
+nav > ul > li:hover {
+    color: rgb(72,123,140);
+}
+
+nav > ul > li > ul > li:hover {
+    color: rgb(252,252,252);
+}
+
+nav li ul {
+    font-size: 0.8em;
+    background-color: rgb(148, 161, 160);
+    color: rgb(197, 198, 222);
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav li ul li {
+    display: block;
+}
+
+nav > ul > li > ul > li > a:hover {
+    background-color: rgb(113,126,138); 
 }
 
 #content-background {

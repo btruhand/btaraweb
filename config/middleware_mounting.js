@@ -1,4 +1,4 @@
-module.exports = function(app, middlewares) {
+exports = module.exports = function(app, middlewares) {
     middlewares.forEach(function(current) {
         if(Array.isArray(current)) {
             // 0th index is mount point, 1st index is the middleware

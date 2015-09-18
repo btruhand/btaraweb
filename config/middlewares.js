@@ -8,7 +8,7 @@ var handle404 = function(req, res) {
     res.render('404');
 };
 
-module.exports = [ 
+exports = module.exports = [ 
     ['/public', express.static(app_directory + '/public')],
     ['/bower', express.static(app_directory + '/bower_components')],
     handle404
