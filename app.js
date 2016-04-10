@@ -11,9 +11,15 @@ app.set('port', process.env.PORT || 8080);
 app.get('/', function(req,res) {
     res.render('index', {"headline" : "Welcome", "year" : new Date().getFullYear()});
 });
-
 app.get('/resume', function(req, res) {
-    res.render('resume');
+    res.render('resume', {"headline" : "Resumé", "year" : new Date().getFullYear()});
+
+});
+app.get('/projects', function(req, res) {
+    res.render('projects', {"headline" : "Projects", "year" : new Date().getFullYear()});
+});
+app.get('/timeline', function(req, res) {
+    res.render('timeline', {"headline" : "Timeline", "year" : new Date().getFullYear()});
 });
 
 middleware_mounter(app, middlewares);

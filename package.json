@@ -7,13 +7,22 @@
   "license": "ISC",
   "dependencies": {
     "bower": "^1.4.1",
-    "express": "^4.12.4",
-    "forever": "^0.15.0",
-    "jade": "^1.10.0"
+    "express": "^4.13.3",
+    "forever": "^0.15.1",
+    "jade": "^1.11.0"
   },
   "scripts": {
-    "start": "forever -w app.js",
+    "start": "forever -w start app.js",
     "postinstall": "./node_modules/bower/bin/bower install",
-    "compress": "./compress.bash"
+    "compress": "./compress.bash",
+    "stop": "forever stop app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btruhand/btaraweb.git"
+  },
+  "engines" : {
+	  "node" : ">=4.4.2",
+	  "npm" : ">=3.8.6"
   }
 }

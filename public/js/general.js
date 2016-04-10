@@ -27,7 +27,7 @@ var quotes = [
 ];
 
 function updateQuote() {
-    $('#quotes').fadeOut(function() {
+    $('#display').fadeOut(function() {
         var quote = quotes[quoteIndex];
         if(Array.isArray(quote)) {
             $('#the-quote').text(quote[0]);
@@ -36,7 +36,7 @@ function updateQuote() {
             $('#the-quote').text(quote);
             $('#quoted-from').empty();
         }
-        $('#quotes').fadeIn();
+        $('#display').fadeIn();
         quoteIndex = (quoteIndex + 1) % quotes.length;
     });
 }

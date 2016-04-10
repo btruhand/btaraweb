@@ -1,52 +1,53 @@
 doctype html
 
 html(lang="en")
-  head
-    title BtaraWeb
-    meta(charset="UTF-8")
-    meta(name="author", content="Btara Truhandarien")
-    meta(name="description", content="Btara Truhandarien personal website")
-    meta(name="keywords", content="Btara, Truhandarien, Btara Truhandarien, website, personal website, personal info")
+	head
+		title BtaraWeb
+		meta(charset="UTF-8")
+		meta(name="author", content="Btara Truhandarien")
+		meta(name="description", content="Btara Truhandarien personal website")
+		meta(name="keywords", content="Btara, Truhandarien, Btara Truhandarien, website, personal website, personal info")
 
-    //link(rel="stylesheet", type="text/css", href="https://fonts.googleapis.com/css?family=Poiret+One|Ubuntu|Shadows+Into+Light")
-    link(rel="stylesheet", type="text/css", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
-    link(rel="stylesheet", type="text/css", href="/public/styles/reset.min.css")
-    link(rel="stylesheet", type="text/css", href="/public/styles/base.min.css")
-    block stylesheets
-    script(src="/bower/jquery/dist/jquery.min.js")
-    script(src="/public/js/general.min.js")
-  body
-    div.container.flex#header
-      div.flex#logo-quote-container
-        div#logo
-          img#image-logo(src="https://www.gravatar.com/avatar/ef12680e5b477ffe7baaafc934d0a68b?s=45")
-          span.baskerville#big-text-logo
-            b BTW
-        div.centurygothic#quotes
-          q#the-quote
-          span#quoted-from
-      div.baskerville#navigation-bar
-        nav
-          ul
-            li
-              a(href='/') Home
-            li
-              a Archive
-              ul
-                li
-                  a Projects
-                li
-                  a Notes
-            li
-              a Timeline
-            li
-              a(href='/resume') Re&#769sume&#769
-    div.container#content-background
-      div.container#content-container
-        article.centered#content
-          block page_content
-    div.container#footer-container
-      div.flex#socmed-links
-        a.fa.fa-facebook-square.sidespread(href='https://www.facebook.com/btara.truhandarien', target='_blank')
-        a.fa.fa-linkedin-square.sidespread(href='https://ca.linkedin.com/pub/btara-truhandarien/7b/1a0/980', target='_blank')
-      h3.centurygothic#copyright &copy; Btara Truhandarien #{year}. All rights reserved.
+		link(rel="stylesheet", type="text/css", href="https://fonts.googleapis.com/css?family=Josefin+Sans")
+		link(rel="stylesheet", type="text/css", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+		link(rel="stylesheet", type="text/css", href="/public/styles/reset.min.css")
+		link(rel="stylesheet", type="text/css", href="/public/styles/base.min.css")
+		block stylesheets
+		script(src="/bower/jquery/dist/jquery.min.js")
+		script(src="/public/js/general.min.js")
+	body
+		div.container.flex
+			div.container.flex-vert.shadow-boxer#header
+				div#logo-container
+					div#logo
+						//img#image-logo(src="https://www.gravatar.com/avatar/ef12680e5b477ffe7baaafc934d0a68b?s=120")
+						span#big-text-logo
+							b BTW
+				div.baskerville#navigation-bar
+					nav
+						ul
+							li
+								a(href='/') Home
+							li
+								a Archive
+							li
+								a(href='/projects') Projects
+							li
+								a Notes
+							li
+								a(href='/timeline') Timeline
+							li.no-border
+								a(href='/resume') Re&#769sume&#769
+				
+				div.centurygothic.wrapword#display
+					q#the-quote
+					span#quoted-from
+			div.container.shadow-boxer#content-background
+				div.container#content-container
+					article.centered#content
+						block page_content
+				div.container#footer-container
+					div.flex#socmed-links
+						a.fa.fa-facebook-square.sidespread(href='https://www.facebook.com/btara.truhandarien', target='_blank')
+						a.fa.fa-linkedin-square.sidespread(href='https://ca.linkedin.com/pub/btara-truhandarien/7b/1a0/980', target='_blank')
+					h3.centurygothic#copyright &copy; Btara Truhandarien #{year}. All rights reserved.
