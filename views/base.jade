@@ -21,9 +21,9 @@ html(lang="en")
 				div#logo-container
 					div#logo
 						//img#image-logo(src="https://www.gravatar.com/avatar/ef12680e5b477ffe7baaafc934d0a68b?s=120")
-						span#big-text-logo
+						span.josefin#big-text-logo
 							b BTW
-				div.baskerville#navigation-bar
+				div.baskerville.subheading-color#navigation-bar
 					nav
 						ul
 							li
@@ -38,13 +38,13 @@ html(lang="en")
 								a(href='/timeline') Timeline
 							li.no-border
 								a(href='/resume') Re&#769sume&#769
-				
-				div.centurygothic.wrapword#display
+				div.centurygothic.wrapword.centered-div#display
 					q#the-quote
 					span#quoted-from
 			div.container.shadow-boxer#content-background
-				div.container#content-container
-					article.centered#content
+				div.container.centered-div#content-container
+					article.centered-div#content
+						h1.palatino #{headline}
 						block page_content
 				div#footer-container
 					div.flex#socmed-links

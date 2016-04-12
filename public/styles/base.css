@@ -10,13 +10,12 @@ body, html {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 0.05em 0.05em 0.1em rgb(214,214,214);
     font-size: 3em;
     border-style: none none solid none;
     border-width: 0.05em;
     border-color: rgb(212,207,188);
-    color: rgb(16,16,48);
-    letter-spacing: 2px;
+    color: rgb(239,236,232);
+    letter-spacing: 1px;
     padding-bottom: 0.25em;
 }
 
@@ -60,18 +59,17 @@ h1 {
 	width: 40%;
     display: block;
     padding: 3% 0 3%;
-    background-color: rgb(24,40,57);
+    background-color: rgba(132,132,132, 0.75);
 	flex-grow: 2.5;
 	position: relative;
 }
 
-.centered {
-    margin-left: auto;
-    margin-right: auto;
+.centered-div {
+    margin: 0 auto;
 }
 
 #content {
-    font-size: 0.9rem;
+    font-size: 0.9em;
     padding: 0.5em 0;
 }
 
@@ -83,9 +81,8 @@ h1 {
 }
 
 #display {
-	width: 12em;
+	width: 15em;
     font-size: 1em;
-	margin: 0 auto;
 	margin-top: 3em;
     position: relative;
     font-weight: bold;
@@ -109,7 +106,6 @@ h1 {
     vertical-align: middle;
     padding-left: 0.3em;
     color: rgb(62,179,144);
-	font-family: "Josefin Sans", serif;
 	font-size: 1.5em;
 }
 
@@ -145,6 +141,8 @@ h1 {
     vertical-align: top;
 }
 
+/* FONT FAMILIES */
+
 .centurygothic {
     font-family: "Century Gothic", "CenturyGothic", AppleGothic, sans-serif;
 }
@@ -153,10 +151,17 @@ h1 {
     font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", "Garamond", "Times New Roman", serif;
 }
 
+.palatino {
+	font-family: "Palatino", "Palatino Linotype", "Palation LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.josefin {
+	font-family: "Josefin Sans", serif;
+}
+/*****************/
 #navigation-bar {
     letter-spacing: 2px;
     font-size: 1.5rem;
-    color: rgb(102, 105, 103);
 	text-align: center;
 	width: 100%;
 }
@@ -219,7 +224,8 @@ nav > ul > li > ul > li > a:hover {
 }
 
 #content-container {
-    background-color: rgba(83,86,90,0.3);
+	font-size: 1.2em;
+	width: 70%;
     background-size: cover;
 }
 
@@ -282,3 +288,11 @@ q:after {
 .fa-linkedin-square {
     color: rgb(60,32,245);
 }
+
+/* COLORS */
+
+.subheading-color {
+    color: rgb(55, 60, 57);
+}
+
+/*********/

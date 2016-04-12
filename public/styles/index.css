@@ -4,7 +4,6 @@
 
 .subtitle {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: rgb(156,188,214);
     font-size: 1.6em;
 }
 
@@ -12,7 +11,8 @@
     position: relative;
     top: -0.7em;
     left: 0.5em;
-    color: rgb(224,229,234);
-    font-size: 1.15em;
+    color: rgb(239,236,232);
+	font-family: "Century Gothic", sans-serif;
+    font-size: 1em;
     line-height: 1.3em;
 }
