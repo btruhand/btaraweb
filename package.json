@@ -22,7 +22,7 @@
     "url": "git+https://github.com/btruhand/btaraweb.git"
   },
   "engines" : {
-	  "node" : ">=4.4.2",
-	  "npm" : ">=3.8.6"
+    "node" : ">=4.4.2",
+    "npm" : ">=3.8.6"
   }
 }

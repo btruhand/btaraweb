@@ -62,6 +62,7 @@ h1 {
     padding: 3% 0 3%;
     background-color: rgb(24,40,57);
 	flex-grow: 2.5;
+	position: relative;
 }
 
 .centered {
@@ -246,9 +247,12 @@ q:after {
 }
 
 #footer-container {
+	width: 100%;
     padding: 0.5em 0 0;
     font-size: 1rem;
     background-color: rgb(217,217,219);
+	position: absolute;
+	bottom: 0;
 }
 
 #socmed-links {
