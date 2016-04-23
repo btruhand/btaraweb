@@ -3,13 +3,13 @@ doctype html
 html(lang="en")
 	head
 		title BtaraWeb
-		meta(charset="UTF-8")
+		meta(Content-type= "text/html" charset="UTF-8")
 		meta(name="author", content="Btara Truhandarien")
 		meta(name="description", content="Btara Truhandarien personal website")
 		meta(name="keywords", content="Btara, Truhandarien, Btara Truhandarien, website, personal website, personal info")
 
 		link(rel="stylesheet", type="text/css", href="https://fonts.googleapis.com/css?family=Josefin+Sans")
-		link(rel="stylesheet", type="text/css", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+		link(rel="stylesheet", type="text/css", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css")
 		link(rel="stylesheet", type="text/css", href="/public/styles/reset.min.css")
 		link(rel="stylesheet", type="text/css", href="/public/styles/base.min.css")
 		block stylesheets
@@ -29,8 +29,6 @@ html(lang="en")
 							li
 								a(href='/') Home
 							li
-								a Archive
-							li
 								a(href='/projects') Projects
 							li
 								a Notes
@@ -41,13 +39,13 @@ html(lang="en")
 				div.centurygothic.wrapword.centered-div#display
 					q#the-quote
 					span#quoted-from
-			div.container.shadow-boxer#content-background
-				div.container.centered-div#content-container
-					article.centered-div#content
-						h1.palatino #{headline}
-						block page_content
 				div#footer-container
 					div.flex#socmed-links
 						a.fa.fa-facebook-square.sidespread(href='https://www.facebook.com/btara.truhandarien', target='_blank')
 						a.fa.fa-linkedin-square.sidespread(href='https://ca.linkedin.com/pub/btara-truhandarien/7b/1a0/980', target='_blank')
 					h3.centurygothic#copyright &copy; Btara Truhandarien #{year}. All rights reserved.
+			div.container.shadow-boxer#content-background
+				div.container.centered-div#content-container
+					article.centered-div#content
+						h1.palatino #{headline}
+						block page_content
