@@ -22,6 +22,11 @@ app.get('/timeline', function(req, res) {
     res.render('timeline', {"headline" : "Timeline", "year" : new Date().getFullYear()});
 });
 
+// ADMIN RELATED
+app.get('/admin', function(req, res) {
+	res.render('admin/admin_login');
+});
+
 middleware_mounter(app, middlewares);
 
 app.listen(app.get('port'), function() {
