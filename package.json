@@ -9,7 +9,7 @@
     "bower": "^1.4.1",
     "express": "^4.13.3",
     "forever": "^0.15.1",
-    "jade": "^1.11.0"
+    "pug": "^2.0.0-alpha6"
   },
   "scripts": {
     "start": "forever -w start app.js",
@@ -21,8 +21,8 @@
     "type": "git",
     "url": "git+https://github.com/btruhand/btaraweb.git"
   },
-  "engines" : {
-    "node" : ">=4.4.2",
-    "npm" : ">=3.8.6"
+  "engines": {
+    "node": ">=4.4.2",
+    "npm": ">=3.8.6"
   }
 }

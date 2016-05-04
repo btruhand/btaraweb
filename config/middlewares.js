@@ -5,7 +5,7 @@ var express = require('express');
 var app_directory = path.dirname(require.main.filename);
 
 var handle404 = function(req, res) {
-    res.render('404');
+    res.render('404', {"headline" : "404"});
 };
 
 exports = module.exports = [ 

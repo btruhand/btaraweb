@@ -9,17 +9,14 @@
     font-size: 5em;
     letter-spacing: 0.2em;
     color: white;
-    text-shadow: 4px 3px 2px rgb(242,52,48),  5px 5px 3px black;
-}
-
-.saying {
-    font-size: 2em;
-    padding: 1.5em 0;
-    font-family: 'Kaushan Script', serif;
-    color: rgb(125,245,245);
-    text-shadow:
+	text-shadow:
         -1px -1px 0 black,
         1px -1px 0 black,
         -1px -1px 0 black,
         1px -1px 0 black;
+}
+
+.announcement {
+    font-size: 2em;
+    color: white;
 }

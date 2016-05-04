@@ -5,7 +5,7 @@ var middlewares = require('./config/middlewares');
 
 // Set various things
 app.set('views', __dirname + '/views');
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 app.set('port', process.env.PORT || 8080);
 
 app.get('/', function(req,res) {
