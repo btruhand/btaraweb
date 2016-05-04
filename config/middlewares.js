@@ -11,5 +11,6 @@ var handle404 = function(req, res) {
 exports = module.exports = [ 
     ['/public', express.static(app_directory + '/public')],
     ['/bower', express.static(app_directory + '/bower_components')],
+	['/private', express.static(app_directory + '/private')],
     handle404
 ];
