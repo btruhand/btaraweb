@@ -1,6 +1,6 @@
 var path = require('path');
 var express = require('express');
-
+var bodyParser = require('body-parser');
 
 var app_directory = path.dirname(require.main.filename);
 
@@ -12,5 +12,6 @@ exports = module.exports = [
     ['/public', express.static(app_directory + '/public')],
     ['/bower', express.static(app_directory + '/bower_components')],
 	['/private', express.static(app_directory + '/private')],
-    handle404
+	bodyParser.json(),
+	bodyParser.urlencoded({ extended : true})
 ];
