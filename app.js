@@ -35,13 +35,7 @@ app.get('/admin', function(req, res) {
 app.post('/admin_login', function(req, res) {
 	let promiseResult = authenticationAPI(req.body.username,req.body.password);
 	promiseResult.then((result) => {
-		if(Array.isArray(result)) {
-			res.send({ authenticate : result[0], message : result[1] });
-		} else {
-			result.then((authResult) => {
-				res.send({ authenticate : authResult[0], message : authResult[1]})
-			});
-		}
+		res.send({ authenticate : result[0], message : result[1] });
 	});
 });
 
