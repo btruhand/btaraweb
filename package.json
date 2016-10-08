@@ -6,27 +6,30 @@
   "author": "Btara Truhandarien",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "bower": "^1.4.1",
-    "express": "^4.13.3",
-    "forever": "^0.15.1",
-    "pug": "^2.0.0-alpha6"
+    "body-parser": "1.15.2",
+    "bower": "1.7.9",
+    "express": "4.14.0",
+    "forever": "0.15.2",
+    "pug": "2.0.0-beta6"
   },
   "scripts": {
     "start": "forever -w start app.js",
     "postinstall": "./node_modules/bower/bin/bower install",
-    "compress": "./compress.bash",
-    "stop": "forever stop app.js"
+    "compress": "./scripts/compress.bash",
+    "stop": "forever stop app.js",
+    "tags": "./scripts/build-tags.bash"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/btruhand/btaraweb.git"
   },
   "engines": {
-    "node": ">=4.4.2",
+    "node": "4.6.0",
     "npm": ">=3.8.6"
   },
-  "devDependencies": {
-    "babel-cli": "^6.8.0"
+  "jshintConfig": {
+    "asi": true,
+    "esversion": 6,
+    "node": true
   }
 }

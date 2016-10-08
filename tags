@@ -1,0 +1,22 @@
+app	/Users/btara.truhandarien/Code/btaraweb/app.js	/app/;"	v	lineno:4
+app	/Users/btara.truhandarien/Code/btaraweb/config/middleware_mounting.js	/app/;"	v	lineno:1	namespace:exports
+app_directory	/Users/btara.truhandarien/Code/btaraweb/config/middlewares.js	/app_directory/;"	v	lineno:5
+authenticationAPI	/Users/btara.truhandarien/Code/btaraweb/app.js	/authenticationAPI/;"	v	lineno:8
+bodyParser	/Users/btara.truhandarien/Code/btaraweb/config/middlewares.js	/bodyParser/;"	v	lineno:3
+exports	/Users/btara.truhandarien/Code/btaraweb/config/middleware_mounting.js	/exports/;"	f	lineno:1	type:void function(?, ?)
+exports	/Users/btara.truhandarien/Code/btaraweb/config/middlewares.js	/exports/;"	v	lineno:11	type:[[string, ?], [string, ?], [string, ?], ?, ?]
+express	/Users/btara.truhandarien/Code/btaraweb/app.js	/express/;"	v	lineno:3
+express	/Users/btara.truhandarien/Code/btaraweb/config/middlewares.js	/express/;"	v	lineno:2
+handle404	/Users/btara.truhandarien/Code/btaraweb/config/middlewares.js	/handle404/;"	f	lineno:7	type:void function(?, ?)
+middleware_mounter	/Users/btara.truhandarien/Code/btaraweb/app.js	/middleware_mounter/;"	v	lineno:5
+middlewares	/Users/btara.truhandarien/Code/btaraweb/app.js	/middlewares/;"	v	lineno:6
+middlewares	/Users/btara.truhandarien/Code/btaraweb/config/middleware_mounting.js	/middlewares/;"	v	lineno:1	namespace:exports
+path	/Users/btara.truhandarien/Code/btaraweb/config/middlewares.js	/path/;"	v	lineno:1
+quoteIndex	/Users/btara.truhandarien/Code/btaraweb/public/js/general.js	/quoteIndex/;"	v	lineno:5	type:number
+quoteIndex	/Users/btara.truhandarien/Code/btaraweb/public/js/general.min.js	/quoteIndex/;"	v	lineno:1	type:number
+quotes	/Users/btara.truhandarien/Code/btaraweb/public/js/general.js	/quotes/;"	v	lineno:7	type:[[string]|string]
+quotes	/Users/btara.truhandarien/Code/btaraweb/public/js/general.min.js	/quotes/;"	v	lineno:1	type:[[string]|string]
+req	/Users/btara.truhandarien/Code/btaraweb/config/middlewares.js	/req/;"	v	lineno:7	namespace:handle404
+res	/Users/btara.truhandarien/Code/btaraweb/config/middlewares.js	/res/;"	v	lineno:7	namespace:handle404
+updateQuote	/Users/btara.truhandarien/Code/btaraweb/public/js/general.js	/updateQuote/;"	f	lineno:29	type:void function()
+updateQuote	/Users/btara.truhandarien/Code/btaraweb/public/js/general.min.js	/updateQuote/;"	f	lineno:1	type:void function()
